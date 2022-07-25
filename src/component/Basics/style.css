@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.div {
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.image{
+    height: 230px;
+    width: 270px;
+}
+.card {
+  border: 2px solid blue;
+  display: flex;
+  height: 400px;
+  width: 270px;
+  flex-direction: column;
+  padding: 10px;
+  text-align: justify;
+  background-color: blanchedalmond;
+}
+.card-number {
+  padding: 5px;
+}
+.number-circle {
+  border: 1px solid red;
+  border-radius: 50%;
+  width: fit-content;
+}
+.card-heading {
+  padding-top: 9px;
+}
+.card-title {
+  padding: 5px;
+  text-align: center;
+}
+.card-info {
+  padding-top: 3px;
+  padding-bottom: 35px;
+  text-align: justify;
+}
+
+/* ----------------------- NAVBAR CSS ----------------------- */
+
+.nav-div {
+  list-style-type: none;
+  padding-left: 300px;
+
+}
+.nav-btn{
+    margin: 25px 30px;
+    padding: 5px 10px;
+}
+.nav-btn:hover{
+    background-color: aqua;
+}
